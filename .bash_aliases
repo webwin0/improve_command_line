@@ -30,7 +30,10 @@ alias gbr='git branch --remote'
 alias gcount='git shortlog -sn'
 alias gcl='git config --list'
 alias gcp='git cherry-pick'
+
 alias glo='git log --oneline --decorate --color'
+alias gl='git lg' # lg alias in .gitconfig
+ 
 alias ga='git add'
 
 alias grh='git reset HEAD'
