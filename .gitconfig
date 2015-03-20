@@ -1,0 +1,31 @@
+[core]
+	editor = vim
+	whitespace = space-before-tab,trailing-space,cr-at-eol
+	ignorecase = false
+[pack]
+	threads = 0
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[user]
+	name = Your Name
+	email = your@email.com
+[log]                                                                                                                                                                                                        
+        decorate = full                                                                                                                                                                                      
+[alias]                                                                                                                                                                                                      
+        lg = log --pretty=format:\"%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\"                                                                                                       
+[color]                                                                                                                                                                                                      
+  status = auto                                                                                                                                                                                              
+  ui = true                                                                                                                                                                                                  
+[difftool]                                                                                                                                                                                                   
+  prompt = false                                                                                                                                                                                             
+[color "status"]                                                                                                                                                                                             
+  added = green                                                                                                                                                                                              
+  changed = blue                                                                                                                                                                                             
+  untracked = magenta                                                                                                                                                                                        
+  deleted = red                                                                                                                                                                                              
+                                                                                                                                                                                                             
+[diff]                                                                                                                                                                                                       
+  tool = vimdiff 
+  renames = copy
